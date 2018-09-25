@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	max-width: 100%;
+	font-family: 'Century Gothic'!important;
+	font-weight: 100;
+	background-color: #ECECEC;
+	overflow-x: hidden;
+}
+h1{
+	font-size: 100px!important;
+	font-weight: 500;
+}
+h2{
+	font-size: 70px!important;
+	font-weight: 500;
+}
+h3{
+	font-size: 50px!important;
+	font-weight: 401;
+	margin: 0;
+}
+h4{
+	font-size: 30px!important;
+	font-weight: 401!important;
+}
+h5{
+	font-size: 10px!important;
+	font-weight: 300;
+}
+h6, h6 > a{
+	font-size: 14px!important;
+	font-weight: 600;
+	font-family: 'Century Gothic'!important;
+}
+p{
+	font-size: 20px!important;
+	font-weight: 300;
+	font-family: 'Century Gothic'!important;
+}
+a{
+	font-size: 15px!important;
+}
+span{
+	font-weight: bold;
+}
+b{
+	font-weight: 600!important;
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
